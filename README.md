@@ -25,7 +25,7 @@ node index.js
 This script can be combined with Varjo's Optical Adjustment tool, so that when you run that tool, it also fixes the SteamVR render res. To do that just follow these steps:
 1. Inside the Optical Adjustment folder create a new folder called `ovr_res_fix`
 2. Extract the project files into this new folder
-3. Install dependencies as mentioned [here](#Run)
+3. Install dependencies as mentioned [in the Run section](#run)
 4. Add the following lines at the end of the `EnableOpticalAdjustment.bat` script, which came with the Optical Adjustment tool:
 ```
 cd ovr_res_fix
