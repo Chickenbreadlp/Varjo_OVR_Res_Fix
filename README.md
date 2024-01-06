@@ -5,7 +5,7 @@ What it does is fool SteamVR into thinking the user opened up the SteamVR Web Co
 Unfortunatly this fix has to be applied for every time SteamVR is restarted, as the offending setting is reset by the Varjo plugin during every start of SteamVR.
 
 ## Prerequesists
-You need to have a recent version of NodeJS installed on your machine for this script to work.
+You need to have a recent version of [NodeJS](https://nodejs.org/en/download) installed on your machine for this script to work.
 
 ## Run
 Before running this script for the first time you need to install it's dependencies `ws` and `axios` by running:
